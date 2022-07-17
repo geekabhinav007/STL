@@ -33,14 +33,6 @@ vector < vector < int >> WrongDefinition; // Wrong: compiler may be confused by 
 ```
 
 ### VECTOR
-```python
-from flask import Flask
 
-app = Flask(__name__)
-
-@app.route("/")
-def hello_world():
-    return "<p>Hello, World!</p>"
-```
 
 
