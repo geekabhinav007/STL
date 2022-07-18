@@ -217,7 +217,7 @@ Elements of vector V1 are:- 10 20 35 89
   ```
 **The auto keyword is simply asking the compiler to deduce the type of the variable from the initialization.**
 
-#### Other operations on vector
+#### Operations on vector
   
 1. begin() – it returns an iterator pointing to the first element of the vector.
   ```c++
