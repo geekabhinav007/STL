@@ -220,9 +220,9 @@ Elements of vector V1 are:- 10 20 35 89
 #### Operations on vector
   
 1. begin() – it returns an iterator pointing to the first element of the vector.
-  ```c++
-auto iterator = itr;
-itr = v1.begin();
+```c++
+  auto iterator = itr;
+  itr = v1.begin();
   ```
 2. end() – it returns an iterator pointing to the element theoretically after the last element of the vector.
 ```c++
@@ -230,7 +230,6 @@ itr = v1.begin();
   itr = v1.end();
   ```
 3. push_back() – it accepts a parameter and insert the element passed in the parameter in the vectors, the element is inserted at the end.
-
 ```c++
   vector<int> v1;
   v1.push_back(5);
@@ -271,7 +270,10 @@ itr = v1.begin();
 ```c++
   v1.size();
   ```
+**Example**
+  
   ```c++
+  
   #include <bits/stdc++.h>
   using namespace std;
 
