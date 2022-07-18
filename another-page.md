@@ -7,4 +7,4 @@ layout: default
 
 _yay_
 
-[back](./tutorial)
+[back](./tutorial.html)
