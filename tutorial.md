@@ -36,6 +36,8 @@ vector < vector < int >> WrongDefinition; // Wrong: compiler may be confused by 
 ```
 This above code is haeder file to include all the libraries present in `C++`, so we don't bother to add each libarary sepretely because of this we can code more efficiently and fast without having multiple line for inclusion of each library or header file sepretely.
 
+### Container
+
 A C++ container is a holder object that stores a collection of other objects (its elements). They are implemented as class templates, which allows a great flexibility in the types supported as elements.
 
 The container manages the storage space for its elements and provides member functions to access them, either directly or through iterators (reference objects with similar properties to pointers).
@@ -68,7 +70,7 @@ int main()
   
     // pair of pair
     pair<int, pair<int, int>> nestedPair = {1, {102, 33}};
-    // Pair of array
+    // Array of pairs
     pair<int, int> arr[] = { {1, 2},
                              {12, 13},
                              {333, 233} };
@@ -85,6 +87,76 @@ int main()
 1 233
 ```
 ### VECTOR (Dynamic array)
+  
+ Vectors are sequence containers representing arrays that can change in size.
+
+Just like arrays, vectors use contiguous storage locations for their elements, which means that their elements can also be accessed using offsets on regular pointers to its elements, and just as efficiently as in arrays. But unlike arrays, their size can change dynamically, with their storage being handled automatically by the container.
+
+**Syntax**
+```c++
+  vector< any datatype> vectorName;
+```
+**Example**
+  
+```c++
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    vector<int> v;
+    v.push_back(45);
+    v.emplace_back(89); 
+    // emplace_back is faster and more efficient than push_back
+    // https://stackoverflow.com/questions/4303513/push-back-vs-emplace-back
+    for (int i = 0; i < 2; i++)
+    {
+        cout << v[i] << " ";
+    }
+    cout << endl;
+
+    // vector of pair datatype
+    vector<pair<int, int>> vp;
+    vp.push_back({1,2});   
+    // push_back rquires currly braces to push pair element in a vector.
+    vp.emplace_back(4,5); 
+    // emplace_back dont required currly braces to push a pair value in vector
+
+    // declare vector of some size or some values filled already in it.
+
+    // vector of size 6 having 0 or any garbage value (Depends on compiler).
+    vector<int> vec(6); 
+    // vector of size 6 with default value 142 in it.
+    vector<int> vect(6,142); 
+    // copy vector vect to v2
+    vector<int> v2(vect); 
+    return 0;
+}
+  ```
+ **Output**
+  ```
+  45 89
+  ```
+We can increase the size of vector easily even after declearing the size of a vector example `vector<int> v[5]` we can easily insert 6th element in the `vector v` by appling `push_back` method on it.
+#### Accessing Elements in a vector
+```c++
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    vector<int> v1 = {10,20,35,89};
+    // Accessing Elements in a vector
+    // we can access elements in vector as a similar fashion like array.
+    cout<<v1[0]<<endl;
+    // we can also access elements ny the use of iterator
+
+
+    return 0;
+}
+```
+  **Output**
+  ```
+  10
+  ```
 
 
 
