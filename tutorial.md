@@ -51,7 +51,7 @@ Containers replicate structures very commonly used in programming: **dynamic arr
 
 ___
     
-                                                 &copy Kumar Abhinav 2022
+                                               &copy Kumar Abhinav 2022
 
 ___
 
