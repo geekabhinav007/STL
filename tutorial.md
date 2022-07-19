@@ -1,7 +1,6 @@
 <span class="fs-8">
 [ Pair ](./pair.html){: .btn .mr-4}  
- </span>
- <span class="fs-8">
+
 [ Vector ](./vector.html){: .btn  .mr-4}
 </span>
 
