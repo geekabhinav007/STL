@@ -1,8 +1,6 @@
-Lorem ipsum dolor sit amet.
 
-[Click me](http://www.google.com){: .btn}
 
-[Link to another page](./another-page.html).
+[Pair](./pair.html){: .btn}
 
 ## Welcome to STL tutorial.
 
