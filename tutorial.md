@@ -50,14 +50,10 @@ Containers replicate structures very commonly used in programming: **dynamic arr
 
 
 ___
+    
+                                                        &copy Kumar Abhinav 2022
 
-[ &copy Kumar Abhinav 2022]{: .text-center}
 ___
-# Footer content
-# appears at the bottom of every page's main content
-# Note: The footer_content option is deprecated and will be removed in a future major release. Please use `_includes/footer_custom.html` for more robust
-markup / liquid-based content.
-footer_content: "Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a>"
 
 
 
