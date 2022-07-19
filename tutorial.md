@@ -1,8 +1,5 @@
-<span class="fs-8">
-[ Pair ](./pair.html){: .btn .mr-4}  
 
-[ Vector ](./vector.html){: .btn  .mr-4}
-</span>
+[ Pair ](./pair.html){: .btn .mr-4 .fs-8}   [ Vector ](./vector.html){: .btn  .mr-4 .fs-8}
 
 ## Welcome to STL tutorial.
 
