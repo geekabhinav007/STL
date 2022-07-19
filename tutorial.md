@@ -49,6 +49,12 @@ The container manages the storage space for its elements and provides member fun
 Containers replicate structures very commonly used in programming: **dynamic arrays (vector)**, **queues (queue)**, **stacks (stack)**, **heaps (priority_queue)**, **linked lists (list)**, **trees (set)**, **associative arrays (map)** e.t.c
 
 
+{::options parse_block_html="true" /}
+
+<i class="fab fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
+The webcast I want to announce - [Register here][webcast-link]!
+&nbsp;&nbsp;<i class="fab fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
+{: .alert .alert-webcast}
 
 
 
