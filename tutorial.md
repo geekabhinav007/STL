@@ -1,6 +1,6 @@
----
-layout: default
----
+Lorem ipsum dolor sit amet.
+
+{% include button.html url="http://www.google.com" %}
 
 [Link to another page](./another-page.html).
 
