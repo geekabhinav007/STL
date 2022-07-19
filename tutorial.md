@@ -1,5 +1,5 @@
 
-[ Pair ](./pair.html){: .btn .mr-4 .fs-8}   [ Vector ](./vector.html){: .btn  .mr-4 .fs-8}
+[ Pair ](./pair.html){: .btn .mr-4 .fs-10 .fw-500}   [ Vector ](./vector.html){: .btn  .mr-4 .fs-10 .fw-500}
 
 ## Welcome to STL tutorial.
 
